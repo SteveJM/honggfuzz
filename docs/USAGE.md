@@ -43,6 +43,7 @@ It should work under the following operating systems:
 | **OS** | **Status** | **Notes** |
 |:-------|:-----------|:----------|
 | **GNU/Linux** | Works | ptrace() API (x86, x86-64 disassembly support)|
+| **Raspberry Pi** | Works | Requires latest "Jessie" release, install libunwind8-dev and binutils-dev to resolve build dependencies|
 | **FreeBSD** | Works | POSIX signal interface |
 | **Mac OS X** | Works | POSIX signal interface/Mac OS X crash reports (x86-64/x86 disassembly support) |
 | **MS Windows** | Doesn't work | The POSIX signal implementation provided by the Cygwin project is not sufficient |
